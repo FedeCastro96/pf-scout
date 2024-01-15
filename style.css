@@ -1,0 +1,516 @@
+/* empiezo por la ventana de inicio*/
+/* empiezo por el header*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+a {
+    border-style: none;
+    text-decoration: none;                                    /* elimina los subrayados del texto dentro de la class: index-links*/
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.header-inicio{                                             /* Class que remite a los links (inicio, contacto, etc.) y al div=bkg-index (contiene imagen y h2) */
+    display: flex;                                          /* elementos se muestran de manera horizontal */
+    justify-content: space-between;                         /* los elementos que se encuentren dentro de esta class se separan de punta a punta*/
+    align-items: center;                                     /* los elementos dentro del header se alinean verticalmente*/
+    height: 90px;                                            /* altura determinada del contenedor, en este caso el header*/
+    width: 100%;
+    background-color: #13c5af;
+}
+
+
+.links-container {
+    display: flex;
+    gap: 10px;
+
+}
+
+.index-links:hover{
+    color: #264653;
+    transform: translateY(-5px);;
+}
+
+.bkg-index{                                                   /* Class que remite al logo y al texto h2 (bkg-index)*/
+    display: flex;                                            /* elementos se muestran de manera horizontal (no se tomó antes porque está dentro de un div) */
+    align-items: center;                                      /* h2 y logo dentro del header se alinean verticalmente*/
+}
+
+.bkg-index img{                                               /* Class que remite al logo y al texto h2 */
+    height: 90px;                                             /* Altura definida de la class (imagen) */
+}
+
+/* pasamos a la parte navegable*/
+
+.bkg-img {
+background-image: url('./assets/bkg-img.jpg');
+background-size: cover;
+height: 400px;
+}
+
+.STP{
+    font-size: 150px;
+    font-style: bold;
+    font-weight: 900;
+    text-align: center;
+    margin-top: -250px;
+    color: white;
+    -webkit-text-stroke: 7px black;
+}
+
+.DCJC{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -100px;
+    color:white;
+    -webkit-text-stroke: 3px black;
+}
+.NM{
+    grid-area: title;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: italic;
+    color:black;
+    text-align: center;
+
+}
+.NM-text1{
+    grid-area: text1;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 30px;
+    margin: auto;
+    
+}
+
+.NM-text2{
+    grid-area: text2;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;   
+    padding: 0 30px;
+    margin: auto;
+   
+}
+
+.imagen1{
+    grid-area: image1;
+    width: 850px;
+}
+
+.imagen2{
+    grid-area: image2;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: fr fr;
+    grid-template-rows: fr fr fr;
+    grid-template-areas: 
+    "title title"
+    "text1 image1"
+    "image2 text2";
+   }
+
+    /* creación del footer*/
+
+    .footer-inicio{                                           
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;                                                                        
+        background-color: #13c5af;
+        gap: 10px;
+    }
+
+
+
+    .cliente1 h3{
+        font-size: 40px;
+        font-weight: bolder;
+
+    }
+
+
+    .cliente2 h3{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .cliente1 p{
+        padding: 0 100px;
+        font-size: 20px;
+    }
+
+    .cliente2 p{
+        padding: 0 100px;
+        font-size: 20px;
+    }
+
+    .cliente1 img{
+        height: 30px;
+    }
+
+    .cliente2 img{
+        height: 30px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #13c5af;
+        border: 0px solid black ;
+
+    }
+    .col{
+        flex-direction: column;
+        width: 230px;
+
+    }
+
+    .yt{
+        height: 70px;
+    }
+
+    .tw{
+        height: 60px;
+    }
+
+    .ig{
+        height: 60px;
+    }
+
+    .wp-inicio img{
+        height: 130px;
+    }
+
+    .redes-inicio{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border: 0px solid black ;
+    }
+
+    .wp-inicio{
+        border: 0px solid black ;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo2-inicio{
+        border: 0px solid black ;
+    }
+  /*
+  Casos de éxito ----------------------------------------------------------------------------------------------
+  header
+  */
+ 
+
+
+.header-casos{                                            
+    display: flex;                                         
+    justify-content: space-between;
+    align-items: center;                                    
+    height: 90px;                                      
+    width: 100%;
+    background-color: #13c5af;
+}
+
+.links-container {
+    display: flex;
+    gap: 10px;
+
+}
+
+.casos-links:hover{
+    color: #264653;
+    transform: translateY(-5px);;
+}
+
+.bkg-casos{                                                   
+    display: flex;                                           
+    align-items: center;                                     
+}
+
+.bkg-casos img{                                              
+    height: 90px;                                            
+}
+
+.casos-de-exito-h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+/*
+   ------------------------------------------MAIN----------------------------------------------------*/
+   .casos-text{
+    font-size: 20px;
+    background-color: #13c5af;
+    vertical-align: center;
+    margin:10px;
+    text-align: center;
+    border: solid #13c5af 1px;
+    background-color: #86e4d9;
+    padding: 10px 50px 10px 50px;
+}
+
+.casos-text:hover 
+
+
+
+  /*
+  QUIENES SOMOS ----------------------------------------------------------------------------------------------
+  header
+  */
+
+  .header-qs {
+    display: flex;
+    justify-content: space-between;
+    background-color: #13c5af;
+    height: 180px; 
+  }
+
+
+
+  .qs-links{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .bkg-qa{
+
+    display: flex;
+  }
+
+  .bkg-qs img{
+    height: 90px;
+
+}
+
+.qs-h1{
+    font-size: 80px;
+    margin-top: 40px;
+    margin-left: 124px;
+    text-align: center;
+    display: flex;
+
+}
+
+/*  MAIN */
+
+.main-qs{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 35px;
+    margin-top: 50px;
+
+}
+
+.main-qs img{
+
+    display: flex;
+    align-items: center;
+    height: 400px;
+    margin-left:610px;
+}
+
+/*  FOOTER */
+
+   .footer-qs{                                           
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;                                                                        
+    background-color: #13c5af;
+}
+
+.footer-qs div{
+    margin: 10px;
+    max-width: 400px;
+}
+.footer-qs img {
+    margin: 10px 0;
+}
+
+.redes{
+
+    display: flex;
+    margin-left: -1500px;
+}
+
+.redes img{
+
+    width: 80px;
+    height: 80px;   
+}
+
+.wsp img{
+margin-left: 1733px;
+margin-top: -78px;
+width: 80px;
+height: 80px;   
+}
+
+
+
+
+  /* PLANES -----------------------------------------------------------------------*/
+
+
+  .header-planes{
+    display: flex;
+    justify-content: space-between;
+    background-color: #13c5af;
+    height: 180px; 
+  }
+
+  .planes-links{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .bkg-planes{
+
+    display: flex;
+  }
+
+  .bkg-planes img{
+    height: 90px;
+
+}
+
+.planes-h1{
+    font-size: 80px;
+    margin-top: 40px;
+    margin-left: 124px;
+    text-align: center;
+    display: flex;
+
+}
+
+   /* FOOTER */
+
+   .footer-planes{                                           
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;                                                                        
+    background-color: #13c5af;
+}
+
+.footer-planes div{
+    margin: 10px;
+    max-width: 400px;
+}
+.footer-planes img {
+    margin: 10px 0;
+}
+
+.wsp img{
+    margin-left: 1028px;
+    margin-top: -78px;
+    width: 80px;
+    height: 80px;   
+  }
+
+/*-- contacto  ------------------------------------>
+
+<!-- Header--> */
+.header-contacto {
+    display: flex;
+    justify-content: space-between;
+    background-color: #13c5af;
+    height: 180px; 
+  }
+
+  .contacto-links{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .bkg-contacto{
+
+    display: flex;
+  }
+
+  .bkg-contacto img{
+    height: 90px;
+
+}
+
+.contacto-h1{
+    font-size: 80px;
+    margin-top: 40px;
+    margin-left: 124px;
+    text-align: center;
+    display: flex;
+
+}
+
+/*<!-- main--> */
+
+form{
+    font-weight: 600;
+}
+
+label{
+    display: block;
+    font-style: italic;
+}
+
+/* footer */
+
+.footer-contacto{                                           
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;                                                                        
+    background-color: #13c5af;
+}
+
+.footer-contacto div{
+    margin: 10px;
+    max-width: 400px;
+}
+.footer-contacto img {
+    margin: 10px 0;
+}
+
+.wsp img{
+    margin-left: 1028px;
+    margin-top: -78px;
+    width: 80px;
+    height: 80px;   
+  }

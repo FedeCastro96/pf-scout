@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!--Header-->
+<header class="header-contacto">
+    <div class="bkg-contacto">
+        <img src="assets/logo.png" alt="logo de la compañia">
+        <h2 class="contacto-h2">Scout Talent</h2>
+    </div>
+
+    <div class="contacto-h1">
+        <h1 class="contacto-h1">Contacto </h1>
+    </div>
+
+    <nav>
+        <a href="/index.html" class="contacto-links">Inicio</a>
+        <a href="/casos-de-exito.html" class="contacto-links">Casos de éxito</a>
+        <a href="/quienes-somos.html" class="contacto-links">¿Quiénes Somos?</a>
+        <a href="/planes.html" class="contacto-links">Planes</a>
+        <a href="/contacto.html" class="contacto-links">Contacto</a>
+    </nav>
+</header>
+
+<!-- Main-->
+
+<main class="contacto">
+    <h4>
+        Compelta la información solicitada y te contactaremos
+    </h4>
+
+    <form action="/procesar-formulario" method="post">
+        <label for="nombre">Nombre y apellido:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <br>
+        <label for="apellido">Teléfono:</label>
+        <input type="text" id="apellido" name="apellido" required>
+    <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <input type="submit" value="Enviar">
+      </form>
+
+      <h4>
+       ¿Cuál es tu rol? 
+    </h4>
+
+<form action="" class="checkbox">
+        <label>
+          <input type="checkbox" name="rol" value="jugador">
+          Jugador
+        </label>
+    
+        <label>
+          <input type="checkbox" name="rol" value="entrenador">
+          Entrenador
+        </label>
+    
+        <label>
+          <input type="checkbox" name="rol" value="representante">
+          Representante
+        </label>
+    
+        <label>
+          <input type="checkbox" name="rol" value="director-deportivo">
+          Director deportivo
+        </label>
+    
+        <label>
+          <input type="checkbox" name="rol" value="otro">
+          Otro
+        </label>
+
+        <br>
+    
+        <input type="submit" value="Enviar">
+      </form>
+    <div class="cuadro-texto">
+        <h4>
+            Déjanos cualquier duda o comendatario y te responderemos a la brevedad
+        </h4>
+    </div> <form>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje"></textarea>
+    
+        <br>
+    
+        <input type="submit" value="Enviar">
+      </form>
+</main>    
+
+<!-- Footer-->
+
+<footer class="footer-contacto">
+
+    <div class="redes">
+        <img src="/assets/Ig.png" alt="Logo instagram" class="ig">
+        <img src="/assets/YT.png" alt="Logo instagram" class="yt">
+        <img src="/assets/tw.png" alt="Logo instagram" class="tw">
+    </div>
+    
+    <div class="wsp">
+        <img src="/assets/wsp.png" alt="botón de wsp">
+    </div>
+    
+    </footer>
+
+</body>
+</html>
