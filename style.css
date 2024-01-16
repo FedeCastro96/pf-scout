@@ -7,25 +7,6 @@ body {
     width: 100%;
 }
 
-a {
-    border-style: none;
-    text-decoration: none;                                    /* elimina los subrayados del texto dentro de la class: index-links*/
-    color: black;
-    font-weight: 600;
-    padding: 10px;
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-.header-inicio{                                             /* Class que remite a los links (inicio, contacto, etc.) y al div=bkg-index (contiene imagen y h2) */
-    display: flex;                                          /* elementos se muestran de manera horizontal */
-    justify-content: space-between;                         /* los elementos que se encuentren dentro de esta class se separan de punta a punta*/
-    align-items: center;                                     /* los elementos dentro del header se alinean verticalmente*/
-    height: 90px;                                            /* altura determinada del contenedor, en este caso el header*/
-    width: 100%;
-    background-color: #13c5af;
-}
-
 .header-mobile{
     background-color: #13C5AF;
 }
@@ -34,103 +15,106 @@ a {
     width: 80px;
 }
 
+.navbar-brand{
+    border-style: none;
+    text-decoration: none;                                   
+    color: black;
+    font-weight: 500;
+    padding: 8px;
+    font-size: 2rem;
+}
 
-.links-container {
-    display: flex;
-    gap: 10px;
+.header-container{                                       
+    background-color: #13c5af; 
 
 }
 
-.index-links:hover{
-    color: #264653;
+.index-header-logo-img{
+    height: 70px;
+}
+.index-header-links {
+    border-style: none;
+    text-decoration: none;                                   
+    color: black;
+    font-weight: 500;
+    padding: 8px;
+    font-size: 18px;
+}
+
+
+.index-header-links:hover{
+    color: #feffff;
     transform: translateY(-5px);;
 }
 
-.bkg-index{                                                   /* Class que remite al logo y al texto h2 (bkg-index)*/
-    display: flex;                                            /* elementos se muestran de manera horizontal (no se tomó antes porque está dentro de un div) */
-    align-items: center;                                      /* h2 y logo dentro del header se alinean verticalmente*/
+.index-header-container img{                                             
+    height: 90px;                                             
 }
 
-.bkg-index img{                                               /* Class que remite al logo y al texto h2 */
-    height: 90px;                                             /* Altura definida de la class (imagen) */
+.index-main-container-2-container-text-1{
+    font-size: 1rem;
+    padding:20px 30px 40px 30px;
+
 }
 
-/* pasamos a la parte navegable*/
-
-.bkg-img {
-background-image: url('./assets/bkg-img.jpg');
-background-size: cover;
-height: 400px;
+.index-main-container-2-container-text-2{
+    font-size: 1rem;
+    padding:20px;
 }
 
-.STP{
-    font-size: 150px;
-    font-style: bold;
-    font-weight: 900;
-    text-align: center;
-    margin-top: -250px;
-    color: white;
-    -webkit-text-stroke: 7px black;
+.index-main-container-2-container-text-1-col1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.index-main-container-2-container-text-2-col1{
+    display: flex;
+    align-items: center;   
+    padding: 10px;
 }
 
-.DCJC{
-    font-size: 40px;
-    font-style: italic;
+
+
+
+/* Main -- Inicio*/
+
+.index-main-container-1 {
+    background-image: url(/assets/bkg-img.jpg);
+    height: 400px;
+    background-size: cover;
+
+}
+
+.index-main-container-1-h2{
+    font-size: 4rem;
     font-weight: 600;
-    text-align: center;
-    margin-top: -100px;
+    font-style: italic;
     color:white;
+    text-align: center;
     -webkit-text-stroke: 3px black;
 }
-.NM{
-    grid-area: title;
-    font-size: 60px;
-    font-weight: 600;
+
+.index-main-container-1-p{
+    font-size: 2rem;
+    font-weight: 500;
     font-style: italic;
     color:black;
     text-align: center;
-
+    text-decoration: underline;
+    margin-top:250px;
 }
-.NM-text1{
-    grid-area: text1;
-    font-size: 25px;
+
+
+
+
+
+.index-main-container-2-h3{
+    font-size: 2rem;
     font-style: italic;
-    text-align: center;
-    line-height: 1.5;
-    padding: 0 30px;
-    margin: auto;
-    
+    text-decoration: underline;
+    -webkit-text-stroke: 3px black;
+    color: white;
 }
-
-.NM-text2{
-    grid-area: text2;
-    font-size: 25px;
-    font-style: italic;
-    text-align: center;
-    line-height: 1.5;   
-    padding: 0 30px;
-    margin: auto;
-   
-}
-
-.imagen1{
-    grid-area: image1;
-    width: 850px;
-}
-
-.imagen2{
-    grid-area: image2;
-}
-
-.text{
-    display: grid;
-    grid-template-columns: fr fr;
-    grid-template-rows: fr fr fr;
-    grid-template-areas: 
-    "title title"
-    "text1 image1"
-    "image2 text2";
-   }
 
     /* creación del footer*/
 
@@ -147,25 +131,25 @@ height: 400px;
 
 
     .cliente1 h3{
-        font-size: 40px;
+        font-size: 3rem;
         font-weight: bolder;
 
     }
 
 
     .cliente2 h3{
-        font-size: 40px;
+        font-size: 3rem;
         font-weight: bolder;
     }
 
     .cliente1 p{
         padding: 0 100px;
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     .cliente2 p{
         padding: 0 100px;
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     .cliente1 img{
@@ -176,46 +160,37 @@ height: 400px;
         height: 30px;
     }
 
-
-    .col{
-        flex-direction: column;
-        width: 230px;
-
-    }
-
-    .yt{
-        height: 70px;
-    }
-
-    .tw{
-        height: 60px;
-    }
-
-    .ig{
-        height: 60px;
-    }
-
-    .wp-inicio img{
-        height: 130px;
-    }
-
-    .redes-inicio{
-        display: flex;
+    .index-footer{
+        border: 1px solid black;
+        width: 100%;
+        display:flex;
         align-items: center;
-        flex-direction: row;
-        border: 0px solid black ;
-    }
-
-    .wp-inicio{
-        border: 0px solid black ;
-        align-items: center;
-        display: flex;
         justify-content: center;
     }
 
-    .logo2-inicio{
-        border: 0px solid black ;
+    
+    .index-footer-logo2{
+        height: 60px;
     }
+
+    .index-footer-wsp-a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .index-footer-wsp-a:hover{
+        background-color: green;
+    }
+
+    .index-footer-yt-a{
+        text-decoration: none;
+    }
+
+    .index-footer-yt-a:hover{
+        background-color: red;
+    }
+
+ 
   /*
   Casos de éxito ----------------------------------------------------------------------------------------------
   header
@@ -512,4 +487,25 @@ label{
     margin-top: -78px;
     width: 80px;
     height: 80px;   
+  }
+
+
+  @media (max-width: 992px) {
+    .index-main-container-2-container-text-2 {
+      flex-direction: column-reverse;
+    }
+    .index-main-container-1-h2{
+        font-size: 3rem;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .index-main-container-2-container-text-2 {
+      flex-direction: column-reverse; 
+    }
+    .index-main-container-1-h2{
+        font-size: 2rem;
+        margin-top: 80px;
+    }
   }
