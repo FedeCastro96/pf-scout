@@ -26,6 +26,14 @@ a {
     background-color: #13c5af;
 }
 
+.header-mobile{
+    background-color: #13C5AF;
+}
+
+.img-logo-mobile{
+    width: 80px;
+}
+
 
 .links-container {
     display: flex;
@@ -168,15 +176,7 @@ height: 400px;
         height: 30px;
     }
 
-    .row{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-        background-color: #13c5af;
-        border: 0px solid black ;
 
-    }
     .col{
         flex-direction: column;
         width: 230px;
@@ -271,7 +271,7 @@ height: 400px;
     padding: 10px 50px 10px 50px;
 }
 
-.casos-text:hover 
+
 
 
 
@@ -280,13 +280,12 @@ height: 400px;
   header
   */
 
-  .header-qs {
+  .header-qs{
     display: flex;
     justify-content: space-between;
     background-color: #13c5af;
     height: 180px; 
   }
-
 
 
   .qs-links{
