@@ -1,3 +1,6 @@
+:root{
+    --primary:#13C5AF; 
+}
 /* empiezo por la ventana de inicio*/
 /* empiezo por el header*/
 body {
@@ -189,63 +192,86 @@ body {
         background-color: red;
     }
 
+    .player-video{
+        width: 50rem;
+        height: 30rem;
+    }
+
  
-  /*
-  Casos de éxito ----------------------------------------------------------------------------------------------
-  header
+  /*-------------------------------------------------------------------------------------------------
+  Casos de éxito 
+  --------------------------------------------------------------------------------------------------- 
   */
- 
 
 
-.header-casos{                                            
-    display: flex;                                         
-    justify-content: space-between;
-    align-items: center;                                    
-    height: 90px;                                      
-    width: 100%;
-    background-color: #13c5af;
-}
+  /*------------------------HEADER -------------------------------------*/
 
-.links-container {
-    display: flex;
-    gap: 10px;
-
-}
-
-.casos-links:hover{
-    color: #264653;
-    transform: translateY(-5px);;
-}
-
-.bkg-casos{                                                   
-    display: flex;                                           
-    align-items: center;                                     
-}
-
-.bkg-casos img{                                              
-    height: 90px;                                            
-}
-
-.casos-de-exito-h1{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 35px;
-}
+/* al usar el mismo html para el header, no es necesario tener un css para la sección de Casos de Éxito*/
 
 /*
    ------------------------------------------MAIN----------------------------------------------------*/
-   .casos-text{
-    font-size: 20px;
-    background-color: #13c5af;
-    vertical-align: center;
-    margin:10px;
-    text-align: center;
-    border: solid #13c5af 1px;
-    background-color: #86e4d9;
-    padding: 10px 50px 10px 50px;
+
+   .casos-main-container-section1 {
+    background-image: url(/assets/bkg-img2.jpg);
+    height: 400px;
+    background-size: cover;
 }
 
+.casos-main-text{
 
+    text-align: center;
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.casos-main-player1-title h3{
+    padding: 0.5rem;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.casos-main-player1-description p{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+b{
+    text-decoration: underline;
+}
+
+.casos-main-player1-border{
+
+    margin: 0rem 10rem;
+}
+
+.casos-main-player2-title h3{
+    padding: 0.5rem;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.casos-main-player2-description p{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.casos-main-player2-border{
+    margin: 0rem 10rem;
+
+}
+
+  /*-------------------------------------------------------------------------------------------------
+ el footer es igual para todas las páginas, por lo que no hace falta adicionar mucho código.  */
+
+ 
+ .footer-logo-casos img{
+    height: 8rem;
+ }
 
 
 
@@ -497,6 +523,19 @@ label{
         font-size: 3rem;
         margin-top: 80px;
     }
+
+    .casos-main-player1-border{
+        border: 0px solid white;
+        background-color: white;
+    }
+
+    .casos-main-player2-border{
+        border: 0px solid white;
+        background-color: white;
+    }
+    .footer-logo-casos img{
+        height: 4rem;
+     }
 }
 
 @media (max-width: 576px) {
@@ -507,4 +546,20 @@ label{
         font-size: 2rem;
         margin-top: 80px;
     }
+
+    
+
+
+    .casos-main-player1-border{
+        border: 0px solid white;
+        background-color: white;
+    }
+
+    .casos-main-player2-border{
+        border: 0px solid white;
+        background-color: white;
+    }
+    .footer-logo-casos img{
+        height: 4rem;
+     }
   }
