@@ -1,0 +1,60 @@
+ /*------------------------QUIENES SOMOS -- HEADER -------------------------------------*/
+
+/* al usar el mismo html para el header, no es necesario tener un css para la sección de Casos de Éxito*/
+
+/*
+   ------------------------------------------MAIN----------------------*/
+
+.quienes-somos-main-container-section1{
+        height: 130px;
+            h2{
+                font-size: 4rem;
+                font-weight: 600;
+                font-style: italic;
+                color:white;
+                text-align: center;
+                -webkit-text-stroke: 3px black;
+                border: 1px solid aqua;
+                background-color: rgb(188, 249, 239);
+                height: 130px;
+            }
+    }
+
+    .quienes-somos-founders{
+        padding: 1.5rem;
+            li{
+                font-size: 1.2rem;
+                color: black;
+                font-style: italic;
+            }
+            
+    }
+
+    .quienes-somos-p{
+        padding: 2rem 4rem;
+        border: 1px solid aqua;
+        background-color: rgb(188, 249, 239);
+            p{
+                text-align: center;
+                margin: auto;
+                color: black;
+                font-size: 1rem; 
+                font-style: italic;
+            }
+    }
+
+
+.carousel{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+/*  FOOTER */
+
+
+
+
+

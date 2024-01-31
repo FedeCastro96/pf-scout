@@ -1,0 +1,8 @@
+{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"styles.css"}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

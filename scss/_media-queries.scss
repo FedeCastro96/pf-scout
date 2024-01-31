@@ -1,0 +1,59 @@
+/* ---------------------MEDIA QUERIES -----------------*/
+
+@media (max-width: 992px) {
+    .index-main-container-2-container-text-2 {
+      flex-direction: column-reverse;
+    }
+    .index-main-container-1-h2{
+        font-size: 3rem;
+        margin-top: 80px;
+    }
+
+    .casos-main-player1-border{
+        border: 0px solid white;
+        background-color: white;
+    }
+
+    .casos-main-player2-border{
+        border: 0px solid white;
+        background-color: white;
+    }
+    .footer-logo-casos img{
+        height: 4rem;
+     }
+}
+
+@media (max-width: 576px) {
+    .index-main-container-2-container-text-2 {
+      flex-direction: column-reverse; 
+    }
+    .index-main-container-1-h2{
+        font-size: 2rem;
+        margin-top: 80px;
+    }
+
+    .casos-main-player1-border{
+        border: 0px solid white;
+        background-color: white;
+    }
+
+    .casos-main-player2-border{
+        border: 0px solid white;
+        background-color: white;
+    }
+    .footer-logo-casos img{
+        height: 4rem;
+     }
+     .carousel{
+     width: 20rem;
+    }
+  }
+
+  @media (max-width: 400px){
+
+  .carousel{
+    width: 10rem;
+  }
+
+
+  }

@@ -1,0 +1,79 @@
+/*------------------------CASOS DE EXITO - HEADER -------------------------------------*/
+
+/* al usar el mismo html para el header, no es necesario tener un css para la sección de Casos de Éxito*/
+
+/*
+   ------------------------------------------MAIN----------------------------------------------------*/
+
+   .casos-main{
+        &-container-section1 {
+                background-image: url(/assets/bkg-img2.jpg);
+                height: 400px;
+                background-size: cover;
+                            h2{
+                                font-size: 4rem;
+                                font-weight: 600;
+                                font-style: italic;
+                                color:white;
+                                text-align: center;
+                                -webkit-text-stroke: 3px black;
+                            }
+        }
+        &-container-section2 {  
+            div {
+                text-align: center;
+                padding: 2rem 1.5rem 1rem 1.5rem;
+                        p{
+                            color: black;
+                            padding: 10px; 
+                            font-size: 1.5rem; 
+                            font-style: italic;
+                        }
+                }
+        }
+        &-player1{
+            h3{
+                padding: 0.5rem;
+                text-decoration: underline;
+                font-size: 3rem;
+                text-align: center;
+            }
+
+            p{
+                text-align: center;
+                padding: 1rem;
+                font-size: 2rem;
+            
+            }
+
+            b{
+                text-decoration: underline;
+            }
+        }
+    }
+
+
+.casos-main-player2{ 
+margin: 0rem 10rem;
+                h3{
+                    padding: 0.5rem;
+                    text-decoration: underline;
+                    font-size: 3rem;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    padding: 1rem;
+                    font-size: 2rem;
+                }
+}
+
+
+  /*-------------------------------------------------------------------------------------------------
+ el footer es igual para todas las páginas, por lo que no hace falta adicionar mucho código.  */
+
+ 
+ .footer-logo-casos img{
+    height: 8rem;
+ }
+

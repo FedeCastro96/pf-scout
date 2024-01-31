@@ -276,216 +276,168 @@ b{
 
 
   /*
-  QUIENES SOMOS ----------------------------------------------------------------------------------------------
-  header
-  */
-
-  .header-qs{
-    display: flex;
-    justify-content: space-between;
-    background-color: #13c5af;
-    height: 180px; 
-  }
+  QUIENES SOMOS ----------------------------------------------------------------------------------------------  */
 
 
-  .qs-links{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    padding: 5px;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
+  /*------------------------HEADER -------------------------------------*/
 
-  .bkg-qa{
+/* al usar el mismo html para el header, no es necesario tener un css para la sección de Casos de Éxito*/
 
-    display: flex;
-  }
+/*
+   ------------------------------------------MAIN----------------------*/
+   .quienes-somos-main-container-section1 {
 
-  .bkg-qs img{
-    height: 90px;
+    height: 100px;
+}
+
+.quienes-somos-p{
+    padding: 2rem 4rem;
+}
+
+.quienes-somos-p p{
+text-align: center;
+margin: auto; }
+
+.quienes-somos-founders-ul{
+    padding: 1.5rem;
+}
+.quienes-somos-founders-ul li{
+    font-size: 1rem;
 
 }
 
-.qs-h1{
-    font-size: 80px;
-    margin-top: 40px;
-    margin-left: 124px;
-    text-align: center;
+.carousel{
+    width: 30rem;
     display: flex;
-
-}
-
-/*  MAIN */
-
-.main-qs{
-    margin-left: 40px;
-    margin-right: 40px;
-    font-size: 35px;
-    margin-top: 50px;
-
-}
-
-.main-qs img{
-
-    display: flex;
+    justify-content: center;
+    margin: auto;
     align-items: center;
-    height: 400px;
-    margin-left:610px;
 }
 
 /*  FOOTER */
 
-   .footer-qs{                                           
-    align-items: center;
-    display: flex;
+
+
+
+
+
+  /* PLANES-----------------------------------------------------------------------*/
+
+
+  /* el header es igual en todos lados*/
+  /* main */
+  
+  .planes-main-container-section1 {
+    background-image: url(/assets/bkg-img3.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.planes-main-cointainer{
+    padding:2rem;
+}
+.planes-main-cointainer{
     justify-content: center;
-    text-align: center;
-    flex-direction: column;                                                                        
-    background-color: #13c5af;
-}
-
-.footer-qs div{
-    margin: 10px;
-    max-width: 400px;
-}
-.footer-qs img {
-    margin: 10px 0;
-}
-
-.redes{
-
     display: flex;
-    margin-left: -1500px;
+    margin:auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
 }
 
-.redes img{
-
-    width: 80px;
-    height: 80px;   
-}
-
-.wsp img{
-margin-left: 1733px;
-margin-top: -78px;
-width: 80px;
-height: 80px;   
-}
-
-
-
-
-  /* PLANES -----------------------------------------------------------------------*/
-
-
-  .header-planes{
-    display: flex;
-    justify-content: space-between;
-    background-color: #13c5af;
-    height: 180px; 
-  }
-
-  .planes-links{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    padding: 5px;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-
-  .bkg-planes{
-
-    display: flex;
-  }
-
-  .bkg-planes img{
-    height: 90px;
+.planes-main-container-table{
+    margin: auto;
 
 }
 
-.planes-h1{
-    font-size: 80px;
-    margin-top: 40px;
-    margin-left: 124px;
-    text-align: center;
-    display: flex;
-
-}
-
-   /* FOOTER */
-
-   .footer-planes{                                           
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;                                                                        
-    background-color: #13c5af;
-}
-
-.footer-planes div{
-    margin: 10px;
-    max-width: 400px;
-}
-.footer-planes img {
-    margin: 10px 0;
-}
-
-.wsp img{
-    margin-left: 1028px;
-    margin-top: -78px;
-    width: 80px;
-    height: 80px;   
-  }
 
 /*-- contacto  ------------------------------------>
+/*header: es igual a los demás*/
 
-<!-- Header--> */
-.header-contacto {
-    display: flex;
-    justify-content: space-between;
-    background-color: #13c5af;
-    height: 180px; 
-  }
-
-  .contacto-links{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    padding: 5px;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-
-  .bkg-contacto{
-
-    display: flex;
-  }
-
-  .bkg-contacto img{
-    height: 90px;
-
-}
-
-.contacto-h1{
-    font-size: 80px;
-    margin-top: 40px;
-    margin-left: 124px;
-    text-align: center;
-    display: flex;
-
-}
 
 /*<!-- main--> */
 
-form{
-    font-weight: 600;
+.contacto-main-container{
+    background-image: url(/assets/bkg-img4.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.contacto-main-container-h2{
+    justify-content: center;
+    display: flex;
+    margin:auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
 }
 
-label{
+.contacto-main-form-container{
+    border: 1px solid black;
+    padding: 1.5rem;
+    margin: auto;
+}
+
+.contacto-main-form-div1{
+    display:flex;
+    max-width: 400px; /* Ancho máximo del contenedor del formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 20px; /* Añade un poco de espacio alrededor del formulario */
+    border: 1px solid #ccc; /* Añade un borde para mejorar la separación visual */
+    border-radius: 8px; /* Añade esquinas redondeadas al formulario */
+    padding: 1rem;
+    background-color: #dffffb;
+}
+
+.contacto-main-form-div2{
+    padding: 1rem;
+
+    border-radius: 8px;
+    justify-content: center;
+}
+.contacto-main-form-div2-h4{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-main-form-div2-checkboxes{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-main-form-ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.contacto-main-form-ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .contacto-main-form-div3{
+    text-align: center;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.contacto-main-form-div4{
+    display:flex;
+    justify-content: center;
+    max-width: 40rem; /* Ancho máximo del contenedor del formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 1rem; /* Añade un poco de espacio alrededor del formulario */
+    border: 1px solid #ccc; /* Añade un borde para mejorar la separación visual */
+    border-radius: 8px; /* Añade esquinas redondeadas al formulario */
+    padding: 1rem;
+    background-color: #dffffb;
+}
+
+.contacto-main-form-div4, p{
+text-align: center; }
+
+.contacto-main-form-div5{
     display: block;
-    font-style: italic;
+
 }
 
 /* footer */
@@ -547,9 +499,6 @@ label{
         margin-top: 80px;
     }
 
-    
-
-
     .casos-main-player1-border{
         border: 0px solid white;
         background-color: white;
@@ -562,4 +511,16 @@ label{
     .footer-logo-casos img{
         height: 4rem;
      }
+     .carousel{
+     width: 20rem;
+    }
+  }
+
+  @media (max-width: 400px){
+
+  .carousel{
+    width: 10rem;
+  }
+
+
   }

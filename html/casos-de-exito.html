@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html laFg="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Casos</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="/css/main.css">
-</head>
 
+    <link rel="stylesheet" href="/css/main.css">
 <body>
 
+       <!--header -->
 
-    <header class="index-header d-none d-lg-flex text-center">
+
+       <header class="index-header d-none d-lg-flex text-center">
         <div class="row w-100">
             <div class="index-header-logo col-4 d-flex">
-                <img class="index-header-logo-img ml-auto"src="assets\logo.png" alt="logo de scout";>
+                <img class="index-header-logo-img ml-auto"src="..\assets\logo.png" alt="logo de scout";>
             </div>
             <div class="index-header-h1 col-4 d-flex justify-content-center align-items-center">
                 <h1>Scout Talent PRO</h1>
@@ -30,7 +29,6 @@
                 <a href="/html/quienes-somos.html" class="index-header-links">¿Quiénes Somos?</a>
                 <a href="/html/planes.html" class="index-header-links">Planes</a>
                 <a href="/html/contacto.html" class="index-header-links">Contacto</a>
-            </div>
         </div>
     </header> 
 
@@ -39,7 +37,7 @@
 
     <nav class="d-lg-none navbar navbar-light  fixed-top header-mobile">
         <div class="container-fluid">
-            <img class="img-logo-mobile" src="assets\logo.png" alt="logo de la compañia">
+            <img class="img-logo-mobile" src="../assets/logo.png" alt="logo de la compañia">
             <a class="navbar-brand" href="/index.html">Scout Talent PRO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -70,52 +68,61 @@
             </div>
         </div>
         </nav>
+   
+   
+        <!--Main -->
+    <main class="casos-main">
+        <section class="casos-main-container-section1" >
+            <h2 class="d-flex justify-content-center">Casos de Éxito</h2>
+        </section>
+        <section class="casos-main-container-section2">
+            <div class="casos-main-text d-flex justify-content-center">
+                <p>Descubre la verdadera transformación que Scout Talent Pro ha brindado a jugadores de todas las categorías. Nuestros videos de casos de éxito capturan momentos inolvidables y testimonian cómo hemos impulsado el rendimiento futbolístico de individuos y equipos. Desde jugadores amateur que han mejorado su técnica hasta profesionales que han elevado su juego al siguiente nivel, cada historia es única y revela el impacto tangible de nuestro análisis y edición de video. Permítenos llevarte más allá del campo y explorar cómo Scout Talent Pro ha marcado la diferencia para aquellos que buscan destacarse en el mundo del fútbol.</p>
+            </div>
+            <div class="casos-main-player1">
+                <div class="casos-main-player1-title d-flex justify-content-center">
+                    <h3 class="row d-flex justify-content-center">Jugador 1</h3>
+                </div> 
+                <div class="casos-main-player1-video d-flex justify-content-center">
+                    <iframe class="player-video" width="560" height="315" 
+                        src="https://www.youtube.com/embed/Nd41zo_Joe4?si=pXEW953CDwK84aZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div>  
+                <div class="casos-main-player1-description d-flex justify-content-center">
+                    <p>
+                        <b>Posición</b>: Mediocampista <br>
+                        <b>Nacionalidad</b>: Argentino <br>
+                        <b>Trayectoria</b>: Barcelona, Inter, BAP<br>
+                        <b>Edad</b>: 24 Años<br>
+                    </p>
+                </div>
+            </div>
 
-
-              <!-- cierre de header-->
-               <!-- inicio del main-->
-
+            <div class="casos-main-player2">
+                <div class="casos-main-player2-title d-flex justify-content-center">
+                    <h3 class="row d-flex justify-content-center">Jugador 2</h3>
+                </div> 
+                <div class="casos-main-player2-video d-flex justify-content-center">
+                    <iframe class="player-video" width="560" height="315"
+                         src="https://www.youtube.com/embed/aR2dO1oURrw?si=9vH899EYEZFchtfV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="casos-main-player2-description d-flex justify-content-center">
+                    <p>
+                        <b>Posición</b>: Delantero <br>
+                        <b>Nacionalidad</b>: Rumano <br>
+                        <b>Trayectoria</b>: Moreno, Galatasaray, Real Sociedad, Boquita<br>
+                        <b>Edad</b>: 41 Años<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+   </main>
 
    
-    
-    <main class="index-main-container w-100">
-        <section class="index-main-container-1" >
-            <h2 class="index-main-container-1-h2 d-flex justify-content-center">Scout Talent PRO</h2>
-        </section>
+   <!--footer -->
+   <footer class="footer-inicio">
 
-        <section class="index-main-container-2">
-            <div class="index-main-container-2-container-h3 d-flex justify-content-center">
-                <h3 class="index-main-container-2-h3">Nuestro Método</h3>
-            </div>
-
-            <div class="index-main-container-2-container-text-1 row">
-                <img class="index-main-container-2-container-text-1-col2 col-lg-7" src="assets\imagen1.png" alt="Imagen de prueba">
-                <p class="d-flex justify-content-center align-items-center col-lg-5">En nuestro proceso de trabajo, simplificamos la experiencia para nuestros clientes. Los jugadores, nos envían sus partidos y nosotros nos encargamos del resto. Nuestro equipo experto realiza una cuidadosa edición de los videos, incorpora análisis detallado de las jugadas clave y utiliza herramientas de vdeo análisis para resaltar aspectos estratégicos. El resultado final es un video optimizado y enriquecido que no solo captura los momentos destacados, sino que también proporciona insights valiosos para el desarrollo y mejora del juego. </p>
-            </div>  
-                  
-            <div class="index-main-container-2-container-text-2 row">
-                <p class="d-flex justify-content-center align-items-center col-lg-7">En el núcleo de nuestra filosofía está el compromiso de ofrecer a nuestros clientes una experiencia visual incomparable. Nos dedicamos a transformar cada partido en una obra maestra cinematográfica, utilizando técnicas de edición avanzadas y herramientas de video análisis para resaltar los momentos más destacados. </p>
-                <img class= "index-main-container-2-container-text-2-col2 col-lg-5" src="assets\imagen2.png" alt="Imagen de prueba">
-            </div>
-        </section>
-    </main>
-
-     <!-- Cierre del Main-->
-
-    <!-- Inicio del footer-->
-    
-<footer class="footer-inicio">
-
-    <div class="cliente1">
-        <h3>Lionel Messi</h3>
-        <p>Estoy realmente impresionado con la calidad y el profesionalismo de los servicios de Scout Talento Pro. Desde el momento en que envié mis videos, sabía que estaba en buenas manos. La atención al detalle y la habilidad para resaltar las jugadas clave utilizando herramientas de videoanálisis son simplemente excepcionales.</p>
-        <img src="assets\5stars.png" alt="Cinco estrellas">
-    </div>
-    <div class="cliente2">
-        <h3>Cristiano Ronaldo</h3>
-        <p>Recibí mi video listo para compartir en las redes sociales, y no puedo esperar a mostrar a mis amigos y seguidores mi desempeño en el campo de una manera tan impactante.</p>
-        <img src="assets\5stars.png" alt="Cinco estrellas">
-    </div>
 
     <div class="index-footer row w-100">
         <div class="index-footer-buttons col-4">
@@ -124,7 +131,7 @@
                     <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
                 </svg>
               </button>
-
+  
               <button type="button" class="btn btn-outline-danger" class="index-footer-yt-a">
                 <a target="_blank" href="https://www.youtube.com/watch?v=OgIRAjnnJzI&ab_channel=GarroshHellscream">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
@@ -138,12 +145,12 @@
                 </svg>
             </button>
         </div>
-
+  
         <div class="index-footer-logo col-4">
-            <img src="assets\logo.png" alt="Logo Scout Talent" class="index-footer-logo2">
-
+            <img src="..\assets\logo.png" alt="Logo Scout Talent" class="index-footer-logo2">
+  
         </div>
-
+  
         <div class="index-footer-wsp col-4">
             <button type="button" class="btn btn-success">
                 <a target="_blank" href="https://web.whatsapp.com/" class="index-footer-wsp-a">
@@ -153,13 +160,13 @@
                 WhatsApp!
             </a>
               </button>
-
+  
         </div>
     
-
+  
     </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
     

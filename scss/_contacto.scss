@@ -1,0 +1,136 @@
+/*-- contacto  ------------------------------------>
+/*header: es igual a los demás*/
+
+
+/*<!-- main--> */
+
+.contacto-main-container{
+    background-image: url(/assets/bkg-img4.jpg);
+    height: 400px;
+    background-size: cover;
+        h2{
+            margin:auto;
+            padding: 1rem;
+            font-size: 4rem;
+            font-weight: 600;
+            font-style: italic;
+            color:white;
+            text-align: center;
+            -webkit-text-stroke: 3px black;
+
+        }
+    }
+
+    .contacto-main-h4{
+            background-color: #dffffb;
+            border: 1px solid aqua;
+                h4{
+                    font-size: 1.5rem;
+                    color: black;
+                    text-decoration: underline;
+                    font-weight: bolder;
+                    font-style: italic;
+        }
+    }
+
+.contacto-main-form-container{
+    border: 1px solid black;
+    padding: 1.5rem;
+    margin: auto;
+        .contacto-main-form-div1{
+            max-width: 40rem; 
+            margin: 0 auto;
+            border: 1px solid #ccc; 
+            border-radius: 8px;
+            padding: 1rem;
+            background-color: #dffffb;
+                label{
+                    font-size: 1.5rem;
+                    color: black;
+                    text-decoration: underline;
+                    font-weight: bolder;
+                    font-style: italic;
+                }
+}}
+
+.contacto-main-form{
+
+
+    &-div2{
+        padding: 1rem;
+        border-radius: 8px;
+        justify-content: center;
+
+            &-h4{
+                padding: 1rem 1rem;
+                display: flex;
+                justify-content: center;
+
+                    h4{
+                        font-size: 2rem;
+                        border: 1px solid grey;
+                        padding: 2rem;
+                        border-radius: 8px;
+                        background-color: #dffffb;
+                        font-weight: bold;
+                        text-decoration: underline;
+                        font-style: italic;
+                    }
+                }
+                &-checkboxes{
+                    padding: 1rem;
+                        ul{
+                            text-decoration: none;
+                            list-style: none;
+                            color: black;
+                            font-style: italic;
+                                li{
+                                    margin-bottom: 0.5rem;
+                                    font-size: 1.2rem;
+                                }
+                        }
+                }
+                &-div3{
+                    input{
+                        text-align: center;
+                        border-radius: 8px;
+                        justify-content: center;
+                    }
+
+                }
+        }
+ }
+.contacto-main-form-div4{
+    display:flex;
+    justify-content: center;
+    max-width: 40rem; 
+    margin: 0 auto;
+    padding: 1rem; 
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    padding: 1rem;
+    background-color: #dffffb;
+
+        p{
+
+           text-decoration: underline;
+           font-weight: bolder;
+           font-style: italic;
+        }
+}
+
+
+
+.contacto-main-form-div5{
+    display: flex;
+    justify-content: center;
+         textarea{
+            width: 27rem;
+            height: 9rem;
+            }
+
+
+}
+
+/* footer */
+

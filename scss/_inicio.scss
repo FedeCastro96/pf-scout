@@ -1,0 +1,193 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header-mobile{
+    background-color: #13C5AF;
+}
+
+.img-logo-mobile{
+    width: 80px;
+}
+
+.navbar-brand{
+    border-style: none;
+    text-decoration: none;                                   
+    color: black;
+    font-weight: 500;
+    padding: 8px;
+    font-size: 2rem;
+}
+
+.index-header{
+    background-color: #13c5af; 
+
+            &-logo{
+                img{
+                 height: 70px;
+                }
+            }
+
+            &-links-container{
+                    a {
+                        border-style: none;
+                        text-decoration: none;                                   
+                        color: black;
+                        font-weight: 500;
+                        padding: 8px;
+                        font-size: 18px;
+                    }
+            }
+            &-links:hover{
+                    color: #feffff;
+                    transform: translateY(-5px);;
+                
+
+                }
+            
+            }
+        
+
+
+
+/* inicio del main*/
+
+.index-main-container{
+    &-1{    
+        background-image: url(/assets/bkg-img.jpg);
+        height: 400px;
+        background-size: cover;
+                               
+                h2{
+                    font-size: 4rem;
+                    font-weight: 600;
+                    font-style: italic;
+                    color:white;
+                    text-align: center;
+                    -webkit-text-stroke: 3px black;
+                }
+    }
+    &-2{
+            &-container-h3{
+                h3{
+                font-size: 2rem;
+                font-style: italic;
+                text-decoration: underline;
+                -webkit-text-stroke: 3px black;
+                color: white;
+                }
+            }
+        
+        &-container-text-1{
+            font-size: 1rem;
+            padding:20px 30px 40px 30px;
+
+
+            p{
+                color: black;
+                padding: 10px; 
+                font-size: 1.5rem;       
+            }
+        }
+            &-container-text-2{
+                font-size: 1rem;
+                padding:20px;
+
+                    p{
+                        color: black;
+                        display: flex;
+                        padding: 10px;
+                        font-size: 1.5rem;
+                    }
+            }
+         }
+}
+
+    /* creación del footer*/
+
+    .footer-inicio{                                           
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;                                                                        
+        background-color: #13c5af;
+        gap: 10px;
+    }
+
+
+
+    .cliente1{
+         h3{
+        font-size: 3rem;
+        font-weight: bolder;
+        }
+        p{
+            padding: 0 100px;
+            font-size: 1rem;
+        }
+        img{
+            height: 30px;
+        }
+        
+    }
+
+
+    .cliente2{
+        h3{
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+        p{
+            padding: 0 100px;
+            font-size: 1rem;
+        }
+        img{
+            height: 30px;
+        }
+
+    } 
+
+
+    .index-footer{
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+        &-logo{
+            img {
+            height: 60px;
+            }
+        }
+
+        &-wsp{
+            a{
+            text-decoration: none;
+            color: white;
+
+            :hover{
+                background-color: green;
+            }
+            }
+        }
+
+        &-yt{
+            a{
+                text-decoration: none;
+                    
+                hover{
+                     background-color: red;
+                     }
+            }
+        }
+    }
+
+
+
+
+
+ 

@@ -1,0 +1,490 @@
+@charset "UTF-8";
+:root {
+  --primary:#13C5AF;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header-mobile {
+  background-color: #13C5AF;
+}
+
+.img-logo-mobile {
+  width: 80px;
+}
+
+.navbar-brand {
+  border-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 8px;
+  font-size: 2rem;
+}
+
+.index-header {
+  background-color: #13c5af;
+}
+.index-header-logo img {
+  height: 70px;
+}
+.index-header-links-container a {
+  border-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 8px;
+  font-size: 18px;
+}
+.index-header-links:hover {
+  color: #feffff;
+  transform: translateY(-5px);
+}
+
+/* inicio del main*/
+.index-main-container-1 {
+  background-image: url(/assets/bkg-img.jpg);
+  height: 400px;
+  background-size: cover;
+}
+.index-main-container-1 h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+}
+.index-main-container-2-container-h3 h3 {
+  font-size: 2rem;
+  font-style: italic;
+  text-decoration: underline;
+  -webkit-text-stroke: 3px black;
+  color: white;
+}
+.index-main-container-2-container-text-1 {
+  font-size: 1rem;
+  padding: 20px 30px 40px 30px;
+}
+.index-main-container-2-container-text-1 p {
+  color: black;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.index-main-container-2-container-text-2 {
+  font-size: 1rem;
+  padding: 20px;
+}
+.index-main-container-2-container-text-2 p {
+  color: black;
+  display: flex;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+/* creación del footer*/
+.footer-inicio {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #13c5af;
+  gap: 10px;
+}
+
+.cliente1 h3 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.cliente1 p {
+  padding: 0 100px;
+  font-size: 1rem;
+}
+.cliente1 img {
+  height: 30px;
+}
+
+.cliente2 h3 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.cliente2 p {
+  padding: 0 100px;
+  font-size: 1rem;
+}
+.cliente2 img {
+  height: 30px;
+}
+
+.index-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.index-footer-logo img {
+  height: 60px;
+}
+.index-footer-wsp a {
+  text-decoration: none;
+  color: white;
+}
+.index-footer-wsp a :hover {
+  background-color: green;
+}
+.index-footer-yt a {
+  text-decoration: none;
+}
+.index-footer-yt a hover {
+  background-color: red;
+}
+
+/*------------------------CASOS DE EXITO - HEADER -------------------------------------*/
+/* al usar el mismo html para el header, no es necesario tener un css para la sección de Casos de Éxito*/
+/*
+   ------------------------------------------MAIN----------------------------------------------------*/
+.casos-main-container-section1 {
+  background-image: url(/assets/bkg-img2.jpg);
+  height: 400px;
+  background-size: cover;
+}
+.casos-main-container-section1 h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+}
+.casos-main-container-section2 div {
+  text-align: center;
+  padding: 2rem 1.5rem 1rem 1.5rem;
+}
+.casos-main-container-section2 div p {
+  color: black;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.casos-main-player1 h3 {
+  padding: 0.5rem;
+  text-decoration: underline;
+  font-size: 3rem;
+  text-align: center;
+}
+.casos-main-player1 p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.casos-main-player1 b {
+  text-decoration: underline;
+}
+
+.casos-main-player2 {
+  margin: 0rem 10rem;
+}
+.casos-main-player2 h3 {
+  padding: 0.5rem;
+  text-decoration: underline;
+  font-size: 3rem;
+  text-align: center;
+}
+.casos-main-player2 p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+/*-------------------------------------------------------------------------------------------------
+el footer es igual para todas las páginas, por lo que no hace falta adicionar mucho código.  */
+.footer-logo-casos img {
+  height: 8rem;
+}
+
+/*------------------------QUIENES SOMOS -- HEADER -------------------------------------*/
+/* al usar el mismo html para el header, no es necesario tener un css para la sección de Casos de Éxito*/
+/*
+   ------------------------------------------MAIN----------------------*/
+.quienes-somos-main-container-section1 {
+  height: 130px;
+}
+.quienes-somos-main-container-section1 h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+  border: 1px solid aqua;
+  background-color: rgb(188, 249, 239);
+  height: 130px;
+}
+
+.quienes-somos-founders {
+  padding: 1.5rem;
+}
+.quienes-somos-founders li {
+  font-size: 1.2rem;
+  color: black;
+  font-style: italic;
+}
+
+.quienes-somos-p {
+  padding: 2rem 4rem;
+  border: 1px solid aqua;
+  background-color: rgb(188, 249, 239);
+}
+.quienes-somos-p p {
+  text-align: center;
+  margin: auto;
+  color: black;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.carousel {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+/*  FOOTER */
+/* --------------------------PLANES---------------------------------*/
+/* el header es igual en todos lados*/
+/* main */
+.planes-main-container-section1 {
+  background-image: url(/assets/bkg-img3.jpg);
+  height: 400px;
+  background-size: cover;
+}
+.planes-main-container-section1 h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+}
+
+.planes-main-cointainer {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid black;
+}
+.planes-main-cointainer h3 {
+  font-size: 1.5rem;
+  color: black;
+  font-style: italic;
+}
+
+.planes-main-container-table table {
+  margin: auto;
+  width: 100%;
+}
+.planes-main-container-table table th {
+  padding: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  background-color: rgb(195, 255, 242);
+}
+.planes-main-container-table table td {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* el footer es igual al de los demás */
+.planes-main-p {
+  padding: 2rem 4rem;
+  border: 1px solid aqua;
+  background-color: rgb(188, 249, 239);
+}
+.planes-main-p p {
+  text-align: center;
+  margin: auto;
+  color: black;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/*-- contacto  ------------------------------------>
+/*header: es igual a los demás*/
+/*<!-- main--> */
+.contacto-main-container {
+  background-image: url(/assets/bkg-img4.jpg);
+  height: 400px;
+  background-size: cover;
+}
+.contacto-main-container h2 {
+  margin: auto;
+  padding: 1rem;
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+}
+
+.contacto-main-h4 {
+  background-color: #dffffb;
+  border: 1px solid aqua;
+}
+.contacto-main-h4 h4 {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.contacto-main-form-container {
+  border: 1px solid black;
+  padding: 1.5rem;
+  margin: auto;
+}
+.contacto-main-form-container .contacto-main-form-div1 {
+  max-width: 40rem;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #dffffb;
+}
+.contacto-main-form-container .contacto-main-form-div1 label {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.contacto-main-form-div2 {
+  padding: 1rem;
+  border-radius: 8px;
+  justify-content: center;
+}
+.contacto-main-form-div2-h4 {
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+.contacto-main-form-div2-h4 h4 {
+  font-size: 2rem;
+  border: 1px solid grey;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #dffffb;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+.contacto-main-form-div2-checkboxes {
+  padding: 1rem;
+}
+.contacto-main-form-div2-checkboxes ul {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-style: italic;
+}
+.contacto-main-form-div2-checkboxes ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+.contacto-main-form-div2-div3 input {
+  text-align: center;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.contacto-main-form-div4 {
+  display: flex;
+  justify-content: center;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #dffffb;
+}
+.contacto-main-form-div4 p {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.contacto-main-form-div5 {
+  display: flex;
+  justify-content: center;
+}
+.contacto-main-form-div5 textarea {
+  width: 27rem;
+  height: 9rem;
+}
+
+/* footer */
+/* ---------------------MEDIA QUERIES -----------------*/
+@media (max-width: 992px) {
+  .index-main-container-2-container-text-2 {
+    flex-direction: column-reverse;
+  }
+  .index-main-container-1-h2 {
+    font-size: 3rem;
+    margin-top: 80px;
+  }
+  .casos-main-player1-border {
+    border: 0px solid white;
+    background-color: white;
+  }
+  .casos-main-player2-border {
+    border: 0px solid white;
+    background-color: white;
+  }
+  .footer-logo-casos img {
+    height: 4rem;
+  }
+}
+@media (max-width: 576px) {
+  .index-main-container-2-container-text-2 {
+    flex-direction: column-reverse;
+  }
+  .index-main-container-1-h2 {
+    font-size: 2rem;
+    margin-top: 80px;
+  }
+  .casos-main-player1-border {
+    border: 0px solid white;
+    background-color: white;
+  }
+  .casos-main-player2-border {
+    border: 0px solid white;
+    background-color: white;
+  }
+  .footer-logo-casos img {
+    height: 4rem;
+  }
+  .carousel {
+    width: 20rem;
+  }
+}
+@media (max-width: 400px) {
+  .carousel {
+    width: 10rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
