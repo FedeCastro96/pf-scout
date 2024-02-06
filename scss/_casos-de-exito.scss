@@ -11,12 +11,7 @@
                 height: 400px;
                 background-size: cover;
                             h2{
-                                font-size: 4rem;
-                                font-weight: 600;
-                                font-style: italic;
-                                color:white;
-                                text-align: center;
-                                -webkit-text-stroke: 3px black;
+                                @include main-h2;
                             }
         }
         &-container-section2 {  

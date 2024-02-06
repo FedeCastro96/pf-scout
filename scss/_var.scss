@@ -1,0 +1,16 @@
+:root{
+    --primary:#13C5AF; 
+}
+
+$color1: #13C5AF;
+$color2: rgb(188, 249, 239);
+$color3: #feffff;
+
+@mixin main-h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-style: italic;
+    color:white;
+    text-align: center;
+    -webkit-text-stroke: 3px black;
+}

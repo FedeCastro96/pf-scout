@@ -28,7 +28,7 @@ body {
 }
 
 .index-header {
-  background-color: #13c5af;
+  background-color: #13C5AF;
 }
 .index-header-logo img {
   height: 70px;
@@ -94,7 +94,7 @@ body {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  background-color: #13c5af;
+  background-color: #13C5AF;
   gap: 10px;
 }
 
@@ -222,7 +222,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
   color: white;
   text-align: center;
   -webkit-text-stroke: 3px black;
-  border: 1px solid aqua;
+  border: 1px solid #13C5AF;
   background-color: rgb(188, 249, 239);
   height: 130px;
 }
@@ -238,7 +238,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
 
 .quienes-somos-p {
   padding: 2rem 4rem;
-  border: 1px solid aqua;
+  border: 1px solid #13C5AF;
   background-color: rgb(188, 249, 239);
 }
 .quienes-somos-p p {
@@ -297,7 +297,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
   font-weight: bold;
   font-style: italic;
   text-decoration: underline;
-  background-color: rgb(195, 255, 242);
+  background-color: rgb(188, 249, 239);
 }
 .planes-main-container-table table td {
   padding: 0.5rem;
@@ -308,7 +308,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
 /* el footer es igual al de los demás */
 .planes-main-p {
   padding: 2rem 4rem;
-  border: 1px solid aqua;
+  border: 1px solid #13C5AF;
   background-color: rgb(188, 249, 239);
 }
 .planes-main-p p {
@@ -328,19 +328,19 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
   background-size: cover;
 }
 .contacto-main-container h2 {
-  margin: auto;
-  padding: 1rem;
   font-size: 4rem;
   font-weight: 600;
   font-style: italic;
   color: white;
   text-align: center;
   -webkit-text-stroke: 3px black;
+  margin: auto;
+  padding: 1rem;
 }
 
 .contacto-main-h4 {
-  background-color: #dffffb;
-  border: 1px solid aqua;
+  background-color: rgb(188, 249, 239);
+  border: 1px solid #13C5AF;
 }
 .contacto-main-h4 h4 {
   font-size: 1.5rem;
@@ -358,10 +358,10 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
 .contacto-main-form-container .contacto-main-form-div1 {
   max-width: 40rem;
   margin: 0 auto;
-  border: 1px solid #ccc;
+  border: 1px solid #feffff;
   border-radius: 8px;
   padding: 1rem;
-  background-color: #dffffb;
+  background-color: #feffff;
 }
 .contacto-main-form-container .contacto-main-form-div1 label {
   font-size: 1.5rem;
@@ -386,7 +386,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
   border: 1px solid grey;
   padding: 2rem;
   border-radius: 8px;
-  background-color: #dffffb;
+  background-color: #feffff;
   font-weight: bold;
   text-decoration: underline;
   font-style: italic;
@@ -416,10 +416,10 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
   max-width: 40rem;
   margin: 0 auto;
   padding: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #feffff;
   border-radius: 8px;
   padding: 1rem;
-  background-color: #dffffb;
+  background-color: #feffff;
 }
 .contacto-main-form-div4 p {
   text-decoration: underline;

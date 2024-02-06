@@ -9,12 +9,7 @@
     height: 400px;
     background-size: cover;
             h2{
-                font-size: 4rem;
-                font-weight: 600;
-                font-style: italic;
-                color:white;
-                text-align: center;
-                -webkit-text-stroke: 3px black;
+                @include main-h2;
             }
 }
 .planes-main-cointainer{
@@ -43,7 +38,7 @@
                 font-weight: bold;
                 font-style: italic;
                 text-decoration: underline;
-                background-color: rgb(195, 255, 242);
+                background-color: $color2;
             }
             td{
                 padding: 0.5rem;
@@ -61,8 +56,8 @@
 
 .planes-main-p{
     padding: 2rem 4rem;
-    border: 1px solid aqua;
-    background-color: rgb(188, 249, 239);
+    border: 1px solid $color1;
+    background-color:$color2;
         p{
             text-align: center;
             margin: auto;

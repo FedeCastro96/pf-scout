@@ -9,21 +9,15 @@
     height: 400px;
     background-size: cover;
         h2{
+            @include main-h2;
             margin:auto;
             padding: 1rem;
-            font-size: 4rem;
-            font-weight: 600;
-            font-style: italic;
-            color:white;
-            text-align: center;
-            -webkit-text-stroke: 3px black;
-
         }
     }
 
     .contacto-main-h4{
-            background-color: #dffffb;
-            border: 1px solid aqua;
+            background-color: $color2;
+            border: 1px solid $color1;
                 h4{
                     font-size: 1.5rem;
                     color: black;
@@ -40,10 +34,10 @@
         .contacto-main-form-div1{
             max-width: 40rem; 
             margin: 0 auto;
-            border: 1px solid #ccc; 
+            border: 1px solid $color3; 
             border-radius: 8px;
             padding: 1rem;
-            background-color: #dffffb;
+            background-color: $color3;
                 label{
                     font-size: 1.5rem;
                     color: black;
@@ -71,7 +65,7 @@
                         border: 1px solid grey;
                         padding: 2rem;
                         border-radius: 8px;
-                        background-color: #dffffb;
+                        background-color: $color3;
                         font-weight: bold;
                         text-decoration: underline;
                         font-style: italic;
@@ -106,10 +100,10 @@
     max-width: 40rem; 
     margin: 0 auto;
     padding: 1rem; 
-    border: 1px solid #ccc;
+    border: 1px solid $color3;
     border-radius: 8px; 
     padding: 1rem;
-    background-color: #dffffb;
+    background-color: $color3;
 
         p{
 

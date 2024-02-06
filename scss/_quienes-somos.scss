@@ -8,14 +8,9 @@
 .quienes-somos-main-container-section1{
         height: 130px;
             h2{
-                font-size: 4rem;
-                font-weight: 600;
-                font-style: italic;
-                color:white;
-                text-align: center;
-                -webkit-text-stroke: 3px black;
-                border: 1px solid aqua;
-                background-color: rgb(188, 249, 239);
+                @include main-h2;
+                border: 1px solid $color1;
+                background-color: $color2;
                 height: 130px;
             }
     }
@@ -32,8 +27,8 @@
 
     .quienes-somos-p{
         padding: 2rem 4rem;
-        border: 1px solid aqua;
-        background-color: rgb(188, 249, 239);
+        border: 1px solid $color1;
+        background-color: $color2;
             p{
                 text-align: center;
                 margin: auto;

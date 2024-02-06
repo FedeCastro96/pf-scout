@@ -6,7 +6,7 @@ body {
 }
 
 .header-mobile{
-    background-color: #13C5AF;
+    background-color: $color1;
 }
 
 .img-logo-mobile{
@@ -23,7 +23,7 @@ body {
 }
 
 .index-header{
-    background-color: #13c5af; 
+    background-color: $color1; 
 
             &-logo{
                 img{
@@ -42,7 +42,7 @@ body {
                     }
             }
             &-links:hover{
-                    color: #feffff;
+                    color: $color3;
                     transform: translateY(-5px);;
                 
 
@@ -62,12 +62,7 @@ body {
         background-size: cover;
                                
                 h2{
-                    font-size: 4rem;
-                    font-weight: 600;
-                    font-style: italic;
-                    color:white;
-                    text-align: center;
-                    -webkit-text-stroke: 3px black;
+                    @include main-h2;
                 }
     }
     &-2{
@@ -114,7 +109,7 @@ body {
         justify-content: center;
         text-align: center;
         flex-direction: column;                                                                        
-        background-color: #13c5af;
+        background-color: $color1;
         gap: 10px;
     }
 
