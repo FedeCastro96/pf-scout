@@ -48,7 +48,7 @@ body {
 
 /* inicio del main*/
 .index-main-container-1 {
-  background-image: url(/assets/bkg-img.jpg);
+  background-image: url(../assets/bkg-img.jpg);
   height: 400px;
   background-size: cover;
 }
@@ -150,7 +150,7 @@ body {
 /*
    ------------------------------------------MAIN----------------------------------------------------*/
 .casos-main-container-section1 {
-  background-image: url(/assets/bkg-img2.jpg);
+  background-image: url(../assets/bkg-img2.jpg);
   height: 400px;
   background-size: cover;
 }
@@ -245,7 +245,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
   text-align: center;
   margin: auto;
   color: black;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-style: italic;
 }
 
@@ -262,7 +262,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
 /* el header es igual en todos lados*/
 /* main */
 .planes-main-container-section1 {
-  background-image: url(/assets/bkg-img3.jpg);
+  background-image: url(../assets/bkg-img3.jpg);
   height: 400px;
   background-size: cover;
 }
@@ -315,7 +315,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
   text-align: center;
   margin: auto;
   color: black;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-style: italic;
 }
 
@@ -323,7 +323,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
 /*header: es igual a los demás*/
 /*<!-- main--> */
 .contacto-main-container {
-  background-image: url(/assets/bkg-img4.jpg);
+  background-image: url(../assets/bkg-img4.jpg);
   height: 400px;
   background-size: cover;
 }
