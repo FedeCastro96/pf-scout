@@ -5,7 +5,7 @@
 /*<!-- main--> */
 
 .contacto-main-container{
-    background-image: url(../assets/bkg-img4.jpg);
+    background-image: url(../assets/bkg-img4.png);
     height: 400px;
     background-size: cover;
         h2{
@@ -15,10 +15,10 @@
         }
     }
 
-    .contacto-main-h4{
+    .contacto-main-h3{
             background-color: $color2;
             border: 1px solid $color1;
-                h4{
+                h3{
                     font-size: 1.5rem;
                     color: black;
                     text-decoration: underline;

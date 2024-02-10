@@ -24,11 +24,14 @@ body {
   color: black;
   font-weight: 500;
   padding: 8px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .index-header {
   background-color: #13C5AF;
+}
+.index-header-h1 h1 {
+  font-size: 1.5rem;
 }
 .index-header-logo img {
   height: 70px;
@@ -135,14 +138,20 @@ body {
   text-decoration: none;
   color: white;
 }
-.index-footer-wsp a :hover {
+.index-footer-wsp a:hover {
   background-color: green;
 }
 .index-footer-yt a {
   text-decoration: none;
 }
-.index-footer-yt a hover {
+.index-footer-yt a:hover {
   background-color: red;
+}
+.index-footer-tw a {
+  text-decoration: none;
+}
+.index-footer-tw a:hover {
+  background-color: rgb(19, 188, 235);
 }
 
 /*------------------------CASOS DE EXITO - HEADER -------------------------------------*/
@@ -262,7 +271,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
 /* el header es igual en todos lados*/
 /* main */
 .planes-main-container-section1 {
-  background-image: url(../assets/bkg-img3.jpg);
+  background-image: url(../assets/bkg-img3.png);
   height: 400px;
   background-size: cover;
 }
@@ -323,7 +332,7 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
 /*header: es igual a los demás*/
 /*<!-- main--> */
 .contacto-main-container {
-  background-image: url(../assets/bkg-img4.jpg);
+  background-image: url(../assets/bkg-img4.png);
   height: 400px;
   background-size: cover;
 }
@@ -338,11 +347,11 @@ el footer es igual para todas las páginas, por lo que no hace falta adicionar m
   padding: 1rem;
 }
 
-.contacto-main-h4 {
+.contacto-main-h3 {
   background-color: rgb(188, 249, 239);
   border: 1px solid #13C5AF;
 }
-.contacto-main-h4 h4 {
+.contacto-main-h3 h3 {
   font-size: 1.5rem;
   color: black;
   text-decoration: underline;

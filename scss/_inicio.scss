@@ -19,11 +19,17 @@ body {
     color: black;
     font-weight: 500;
     padding: 8px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .index-header{
     background-color: $color1; 
+
+            &-h1{
+                    h1{
+                        font-size: 1.5rem;
+                    }
+            }
 
             &-logo{
                 img{
@@ -164,7 +170,7 @@ body {
             text-decoration: none;
             color: white;
 
-            :hover{
+            &:hover{
                 background-color: green;
             }
             }
@@ -174,8 +180,17 @@ body {
             a{
                 text-decoration: none;
                     
-                hover{
+                &:hover{
                      background-color: red;
+                     }
+            }
+        }
+        &-tw{
+            a{
+                text-decoration: none;
+                    
+                &:hover{
+                     background-color: rgb(19, 188, 235);
                      }
             }
         }
